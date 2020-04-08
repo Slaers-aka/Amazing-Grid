@@ -1,0 +1,138 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+h1 {
+    font-size: 72px;
+}
+h1 + p {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 36px;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    grid-template-areas: "a a a a" "a a a a" "b b c c" "d e f g" "h h j i" "m m n n";
+}
+.wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.left-wrap {
+    padding-left: 210px;
+    padding-right: 110px;
+}
+.right-wrap {
+    padding-right: 150px;
+    padding-left: 60px;
+}
+.grid-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 515px;
+}
+.grid-item h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+.grid-item p {
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+.grid-item-main {
+    background-image: url(../img/bg-main.png);
+    grid-area: a;
+    padding-top: 287px;
+    padding-bottom: 356px;
+    text-align: left;
+}
+.title-block {
+    max-width: 630px;
+}
+.grid-item-main h1 {
+    font-size: 72px;
+    margin-bottom: 55px;
+}
+.grid-item-main p {
+    font-size: 30px;
+    line-height: 45px;
+}
+.grid-item-red {
+    background-image: url(../img/bg-red.png);
+    grid-area: b;
+}
+.grid-item-lgray {
+    background-color: #f3f1ef;
+    grid-area: c;
+    color: rgb(102, 102, 102);
+    padding-top: 113px;
+}
+.grid-item-pic1 {
+    background-image: url(../img/bg-one.png);
+    grid-area: d;
+}
+.grid-item-pic2 {
+    background-image: url(../img/bg-two.png);
+    grid-area: e;
+}
+.grid-item-pic3 {
+    background-image: url(../img/bg-three.png);
+    grid-area: f;
+}
+.grid-item-pic4 {
+    background-image: url(../img/bg-four.png);
+    grid-area: g;
+}
+.grid-item-blue-text {
+    grid-area: h;
+    padding-top: 125px;
+}
+.grid-item-pic5 {
+    background-image: url(../img/bg-five.png);
+    grid-area: j;
+}
+.grid-item-bluebg {
+    grid-area: i;
+}
+.grid-item-blue {
+    background-color: #3f729b;
+    color: #fff;
+}
+.grid-item-green, .grid-item-gray {
+    padding-top: 139px;
+}
+.grid-item-green {
+    background-color: #2ebd59;
+    color: #fff;
+    grid-area: m;
+}
+.grid-item-gray {
+    background-color: #282b2f;
+    color: #fff;
+    grid-area: n;
+}
+.item-btn {
+    font-style: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #f9f9f9;
+    display: block;
+    border: 2px solid #f9f9f9;
+    border-radius: 40px;
+    max-width: 315px;
+    padding: 23px 32px;
+
+}
+  
